@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".Historial">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_border">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gotas" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="260dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:text="Water Flow"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="65dp"
+            android:textSize="35sp"
+            android:fontFamily="@font/virtual"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="65dp"
+        android:text="Historial de Registros"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="35sp"
+        android:fontFamily="@font/playlistscript"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:text="NIVEL DE AGUA"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/bebas"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/lienas" />
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/rounded_border"
+        android:layout_marginTop="210dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/historial" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="125dp"
+            android:text="Datos del ultimo día de registro de nivel de agua."
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="140dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="190dp"
+            android:textSize="15sp"
+            android:backgroundTint="#002060"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="@font/montserratregular"
+            android:layout_height="40dp"
+            android:text="Consultar Reporte"/>
+
+</FrameLayout>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:text="Temperatura"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/bebas"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/lienas" />
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/rounded_border"
+        android:layout_marginTop="480dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/historial" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="125dp"
+            android:text="Datos del ultimo día de registro de temperatura de agua."
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="140dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="190dp"
+            android:textSize="15sp"
+            android:backgroundTint="#002060"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="@font/montserratregular"
+            android:layout_height="40dp"
+            android:text="Consultar Reporte"/>
+
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    tools:context=".Inicio">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/olas" />
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="320dp"
+        android:src="@drawable/gotas" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="260dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:text="Water Flow"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="230dp"
+        android:textSize="60sp"
+        android:fontFamily="@font/virtual"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:text="¡Ayúdanos a preservar el agua!"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="13sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rounded_border"
+        android:layout_marginTop="250dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="Estado"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/bebas"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_agua"
+            android:layout_width="194dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/bebas"
+            android:gravity="center"
+            android:text="100"
+            android:textColor="#5271FF"
+            android:textSize="80sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/goti"/>
+
+        <TextView
+            android:layout_width="271dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/montserratlight"
+            android:gravity="center"
+            android:text=" CM Para llenarse"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/rounded_borderblack"
+        android:layout_marginTop="480dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="NIVEL DE AGUA"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:fontFamily="@font/bebas"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"
+            android:id="@+id/txtcliente"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rounded_border"
+        android:layout_marginTop="550dp">
+
+    </FrameLayout>
+</RelativeLayout>
